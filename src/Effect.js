@@ -9,7 +9,6 @@ ${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`;
 
 const Effect = () => {
     const [count, setCount] = useState(()=> RealTime(new Date))
-    // JSの組み込み型関数 => new Date
     // ES6から使えるようになった記法　=> ${}内に変数や式が入れられる、文字列として扱える
     useEffect(() => {
         const time = setInterval(() => {

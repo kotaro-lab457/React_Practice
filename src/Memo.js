@@ -24,6 +24,7 @@ const Memo = () => {
 
     return (
         <div>
+            <h3>---Memo---</h3>
             <h3>インクリメント count1 </h3>
             <p>Increment Counter : {count1}</p>
             <button onClick={() => setCount1(count1 + 1)} >Increment count1</button>
