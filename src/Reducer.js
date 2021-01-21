@@ -20,6 +20,7 @@ const Reducer = () => {
     console.log(state.count)
     return (
         <div>
+            <h3>---Reducer---</h3>
             {state.count} 回数
             <button onClick={() => dispatch({ type: 'Plus' })}>たす</button>
             <button onClick={() => dispatch({ type: 'Minus' })}>ひく</button>
