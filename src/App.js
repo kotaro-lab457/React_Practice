@@ -3,6 +3,7 @@ import Effect from './Effect'
 import Reducer from './Reducer'
 import Memo from './Memo'
 import Ref from './Ref'
+import FriendStatus from './FriendStatus'
 
 const App = () => {
     const [count, setCount] = useState(0)
@@ -15,7 +16,8 @@ const App = () => {
             <button onClick={() => setCount(count + 1)}>クリック</button>
             <Reducer /> 
             <Memo />
-            <Ref />       
+            <Ref />
+            <FriendStatus />    
         </div>
     )
 }
